@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h1>MY NAME IS</h1>
+<h1><p>You will be a </p> <p id="title"></p> <p>in</p> <p id="city"></p> <p>, and married to </p> <p id="partner"></p> <p> with</p> <p id="number"></p><p>kids</p></h1>
+</body>
+<script type="text/javascript">
+var numberOfChildren = "4 ";
+var parthnerName =" Maya";
+var geographicLocation = "Madrid";
+var jobTitle = "Web Developer";
+console.log(numberOfChildren, parthnerName, geographicLocation, jobTitle);
+document.getElementById("title").innerHTML = jobTitle;
+console.log(numberOfChildren, parthnerName, geographicLocation, jobTitle);
+document.getElementById("city").innerHTML = geographicLocation;
+console.log(numberOfChildren, parthnerName, geographicLocation, jobTitle);
+document.getElementById("partner").innerHTML = parthnerName;
+console.log(numberOfChildren, parthnerName, geographicLocation, jobTitle);
+document.getElementById("number").innerHTML = numberOfChildren;
+// document.write(name);
+// document.write(name2);
+console.log('you will be a '+ jobTitle + 'in ' + geographicLocation + 'and married to ' + parthnerName + ' with ' + numberOfChildren + 'kids')
+</script>
+
+</html>
